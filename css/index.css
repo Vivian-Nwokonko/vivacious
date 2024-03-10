@@ -1,0 +1,49 @@
+.firstP { background-color: midnightblue;
+    color: orangered;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    border: 4px dotted orangered;
+    border-radius: 10px;
+}
+
+.secondP { background-color: tomato;
+    color: seagreen;
+    padding: 40px;
+    font-size: 20px;
+    border: 7px dotted seagreen;
+    border-radius: 20px;
+
+}
+
+.firstT {border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: justify;
+
+}
+
+.firstT th {
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+
+.firstT td {
+    border: 1px solid black;
+    background-color: crimson;
+}
+
+.secondT {border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: justify;
+
+}
+
+.secondT th{
+    border: 1px solid black;
+}
+
+.secondT td{
+    border:  1px solid black;
+}

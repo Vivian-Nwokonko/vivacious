@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*styling of bg img*/
+
+.bg {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url(../image/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*styling of nav*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+    position: fixed;
+    top: 0;
+
+}
+
+nav ul {
+    list-style: none;
+    padding-right: 10%;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav h1{
+    padding-left: 10%;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*styling of bgcontent*/
+.bgcontent {
+    text-align: center;
+    padding: 250px 70px;
+    color: white;
+
+}
+
+.bgcontent h1 {
+    padding-bottom: 20px;
+}
+
+.bgcontent p {
+    padding-bottom: 20px;
+}
+.btn1 {
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn1 a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.icon1 {
+    position: absolute;
+    top: 30%;
+    background-color: blue;
+    color: white;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icon2 {
+    position: absolute;
+    right: 5px;
+    top: 30%;
+    background-color: blue;
+    color: white;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*styling of welcome page*/
+
+.welcome {
+    text-align: center;
+    background-color: white;
+    padding: 30px 20%;
+}
+
+.welcome h2 {
+    padding-bottom: 10px;
+    color: blue;
+}
+
+.welcome p {
+    padding-bottom: 30px;
+    color: black;
+}
+
+.btn2 {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+/*styling of story page*/
+
+.story {
+    display: flex;
+    text-align: center;
+}
+
+.story i {
+    padding-top: 15px;
+}
+
+.story1 {
+    background-color: blue;
+    color: white;
+}
+
+.story1 h3 {
+    padding: 10px 0px;
+}
+
+.story1 p {
+    padding: 15px 20px;
+}
+
+.story2 {
+    background-color: black;
+    color: white;
+}
+
+.story2 h3 {
+    padding: 10px 0px;
+}
+
+.story2 p {
+    padding: 15px 20px;
+}
+
+/*styling of service page*/
+.service {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.service h2 {
+    color: blue;
+    }
+
+.service p {
+    padding: 20px 0px;
+}
+
+.servicecontent_ {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn3 {
+    background-color: blanchedalmond;
+    padding-right: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.btn3 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.servicecontent_ i {
+    font-size: 20px;
+    color: blue;
+}
+/*STYLING OF REVIEW PAGE*/
+
+.review {
+    background-color: blue;
+}
+.reviewcontent {
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.reviewcontent i {
+    padding: 20px 0px;
+}
+
+.reviewcontent p {
+    padding: 20px 0px;
+}
+
+/*styling of portfolio page*/
+ 
+.portfolio {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px;
+    
+}
+
+.portfolio h2 {
+    color: blue;
+    padding-bottom: 10px;
+
+}
+
+.portfolio p {
+    color: black;
+    padding-bottom: 20px;
+}
+.portfolio ul li {
+    display: inline-block;
+    padding-right: 20px;
+    color: blue;
+    padding-bottom: 20px;
+}
+
+
+.portfoliocontent img {
+    width: 100%;
+}
+
+.myimg {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+    
+}
+
+/*styling of info page*/
+
+.info {
+    background-color: blue;
+    padding: 50px 0px;
+}
+
+.infocontent {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    color: white;
+}
+
+.info img{
+    width: 100%;
+}
+
+.info h3 {
+    font-weight: 50%;
+}

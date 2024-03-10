@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*NAV STYLING*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10% ;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0%;
+    background-color: wheat;
+    }
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;   
+}
+
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+nav button {
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+}
+
+nav button a {
+    color: white;
+}
+
+
+/*BACKGROUND IMAGE STYLING AND TEXT STYLING THATS WITHIN THE BG IMG*/
+.bg{
+    background: url(../image/pexels-jess-bailey-designs-929773.jpg);
+   height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: justify ;
+    padding: 160px 170px;
+    animation-name: bg;
+    animation-duration: 10s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes bg{
+        0%{ background: url(../image/pexels-jess-bailey-designs-929773.jpg);
+        }
+        10%{background: url(../image/pexels-fauxels-3183195.jpg);
+
+        }
+        20%{background: url(../image/pexels-miguel-á-padriñán-1591060.jpg);
+        }
+        30%{background: url(../image/pexels-cottonbro-studio-3205570.jpg);}
+        
+    }
+
+
+/*STYLING FOR CONTENT WITHIN BG IMG*/
+.one {
+    color: red;
+    padding: 20px 0px;
+}
+ 
+
+.btn1 {
+    background-color: red;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: none;
+    
+}
+   
+.btn1 a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.btn2 {
+    background-color: transparent;
+    padding: 10px 10px ;
+    margin-top: 10px;
+    border: 1px solid black;
+    }
+
+.btn2 a {
+    color: black;
+    text-decoration: none;
+}
+
+/*STYLING FOR CONTENT OUTSIDE BG IMG*/
+.three{
+    display: flex;
+    gap: 80px;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding-top: 80px;
+
+}
